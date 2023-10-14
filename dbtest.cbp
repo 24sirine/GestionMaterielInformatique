@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="dbtest" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/dbtest" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/dbtest" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="C:/Program Files (x86)/Dev-Cpp/MinGW64/include" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="C:/Users/MSI/Desktop/libmysql.a/libmysql.a" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="include/DATE.h" />
+		<Unit filename="include/DATE1.h" />
+		<Unit filename="include/GARANTIE.h" />
+		<Unit filename="include/InfoSociete.h" />
+		<Unit filename="include/MaterielInfo.h" />
+		<Unit filename="include/clavier.h" />
+		<Unit filename="include/imprimanteScanner.h" />
+		<Unit filename="include/ordinateur.h" />
+		<Unit filename="include/reclamation.h" />
+		<Unit filename="include/serveur.h" />
+		<Unit filename="include/smartPhone.h" />
+		<Unit filename="include/souris.h" />
+		<Unit filename="include/supportStockage.h" />
+		<Unit filename="include/supportTransmisssion.h" />
+		<Unit filename="include/tab_reclamation.h" />
+		<Unit filename="include/tablette.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src/DATE.cpp" />
+		<Unit filename="src/DATE1.cpp" />
+		<Unit filename="src/GARANTIE.cpp" />
+		<Unit filename="src/InfoSociete.cpp" />
+		<Unit filename="src/MaterielInfo.cpp" />
+		<Unit filename="src/clavier.cpp" />
+		<Unit filename="src/imprimanteScanner.cpp" />
+		<Unit filename="src/ordinateur.cpp" />
+		<Unit filename="src/reclamation.cpp" />
+		<Unit filename="src/serveur.cpp" />
+		<Unit filename="src/smartPhone.cpp" />
+		<Unit filename="src/souris.cpp" />
+		<Unit filename="src/supportStockage.cpp" />
+		<Unit filename="src/supportTransmisssion.cpp" />
+		<Unit filename="src/tab_reclamation.cpp" />
+		<Unit filename="src/tablette.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

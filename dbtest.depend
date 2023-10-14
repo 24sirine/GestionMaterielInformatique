@@ -1,0 +1,176 @@
+# depslib dependency file v1.0
+1651228672 source:c:\users\msi\desktop\dbtest\main.cpp
+	<iostream>
+	<Windows.h>
+	<mysql.h>
+	<iomanip>
+	<stdlib.h>
+	<sstream>
+	<stdio.h>
+	"TEST.h"
+	"MaterielInfo.h"
+	"supportStockage.h"
+	"supportTransmisssion.h"
+	"InfoSociete.h"
+	"ordinateur.h"
+	"clavier.h"
+	"souris.h"
+	"InfoSociete.h"
+	<fstream>
+	<iostream>
+	"reclamation.h"
+	"tab_reclamation.h"
+	"DATE1.h"
+
+1651031153 source:c:\users\msi\desktop\dbtest\src\test.cpp
+	"TEST.h"
+
+1651031152 c:\users\msi\desktop\dbtest\include\test.h
+
+1651033830 c:\users\msi\desktop\dbtest\include\materielinfo.h
+	"GARANTIE.h"
+	"string"
+	<ios>
+
+1651034623 c:\users\msi\desktop\dbtest\include\garantie.h
+	"DATE.h"
+
+1651032360 c:\users\msi\desktop\dbtest\include\date.h
+	"string"
+
+1651034247 c:\users\msi\desktop\dbtest\include\supportstockage.h
+	<MaterielInfo.h>
+
+1651034332 c:\users\msi\desktop\dbtest\include\supporttransmisssion.h
+	<MaterielInfo.h>
+
+1651048163 c:\users\msi\desktop\dbtest\include\infosociete.h
+	"InfoSociete.h"
+	"ordinateur.h"
+	"souris.h"
+	"clavier.h"
+	"tablette.h"
+	"imprimanteScanner.h"
+	"supportStockage.h"
+	"supportTransmisssion.h"
+	"serveur.h"
+	"smartPhone.h"
+	"MaterielInfo.h"
+	<vector>
+
+1651033885 c:\users\msi\desktop\dbtest\include\ordinateur.h
+	<string>
+	<MaterielInfo.h>
+
+1651034199 c:\users\msi\desktop\dbtest\include\souris.h
+	<MaterielInfo.h>
+
+1651033512 c:\users\msi\desktop\dbtest\include\clavier.h
+	<MaterielInfo.h>
+
+1651034422 c:\users\msi\desktop\dbtest\include\tablette.h
+	<MaterielInfo.h>
+
+1651033645 c:\users\msi\desktop\dbtest\include\imprimantescanner.h
+	<MaterielInfo.h>
+
+1651034001 c:\users\msi\desktop\dbtest\include\serveur.h
+	<MaterielInfo.h>
+
+1651034063 c:\users\msi\desktop\dbtest\include\smartphone.h
+	<MaterielInfo.h>
+
+1651032384 source:c:\users\msi\desktop\dbtest\src\date.cpp
+	"DATE.h"
+	"DATE.h"
+	<iostream>
+
+1651033547 source:c:\users\msi\desktop\dbtest\src\clavier.cpp
+	"clavier.h"
+	<iostream>
+
+1651034736 source:c:\users\msi\desktop\dbtest\src\garantie.cpp
+	"GARANTIE.h"
+	"DATE.h"
+	<iostream>
+
+1651033602 source:c:\users\msi\desktop\dbtest\src\imprimantescanner.cpp
+	"imprimanteScanner.h"
+	<iostream>
+
+1651045984 source:c:\users\msi\desktop\dbtest\src\infosociete.cpp
+	"InfoSociete.h"
+	"ordinateur.h"
+	"souris.h"
+	"clavier.h"
+	"tablette.h"
+	"imprimanteScanner.h"
+	"supportStockage.h"
+	"supportTransmisssion.h"
+	"serveur.h"
+	"smartPhone.h"
+	"MaterielInfo.h"
+	<iostream>
+	<typeinfo>
+	<ios>
+	<fstream>
+
+1651033805 source:c:\users\msi\desktop\dbtest\src\materielinfo.cpp
+	"MaterielInfo.h"
+	"GARANTIE.h"
+	<iostream>
+
+1651033906 source:c:\users\msi\desktop\dbtest\src\ordinateur.cpp
+	"ordinateur.h"
+	<iostream>
+
+1651034083 source:c:\users\msi\desktop\dbtest\src\smartphone.cpp
+	"smartPhone.h"
+	<iostream>
+
+1651034163 source:c:\users\msi\desktop\dbtest\src\souris.cpp
+	"souris.h"
+	<iostream>
+
+1651034266 source:c:\users\msi\desktop\dbtest\src\supportstockage.cpp
+	"supportStockage.h"
+	<iostream>
+
+1651034359 source:c:\users\msi\desktop\dbtest\src\supporttransmisssion.cpp
+	"supportTransmisssion.h"
+	<iostream>
+
+1651034446 source:c:\users\msi\desktop\dbtest\src\tablette.cpp
+	"tablette.h"
+	<iostream>
+
+1651034892 source:c:\users\msi\desktop\dbtest\src\serveur.cpp
+	"serveur.h"
+	<iostream>
+
+1651191733 c:\users\msi\desktop\dbtest\include\reclamation.h
+	"DATE1.h"
+	<iostream>
+
+1651191685 c:\users\msi\desktop\dbtest\include\date1.h
+	<iostream>
+	<string>
+
+1651191414 c:\users\msi\desktop\dbtest\include\tab_reclamation.h
+	"reclamation.h"
+	<iostream>
+	<vector>
+
+1651191717 source:c:\users\msi\desktop\dbtest\src\date1.cpp
+	"DATE1.h"
+	<iostream>
+
+1651191717 source:c:\users\msi\desktop\dbtest\src\reclamation.cpp
+	<iostream>
+	"reclamation.h"
+
+1651194825 source:c:\users\msi\desktop\dbtest\src\tab_reclamation.cpp
+	<iostream>
+	"tab_reclamation.h"
+	<vector>
+
